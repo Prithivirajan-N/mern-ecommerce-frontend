@@ -1,0 +1,32 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.login-card {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.message.success {
+    color: green; /* Green color for success messages */
+}
+
+.message.error {
+    color: red; /* Red color for error messages */
+}

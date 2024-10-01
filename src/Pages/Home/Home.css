@@ -1,0 +1,22 @@
+.imagesize{
+    height: 200px!important;
+    width: 200px!important;
+}
+.card{
+    height: 200px!important;
+    width: 200px!important;
+}
+.card-body{
+    background-color: rgb(245, 245, 236);
+}
+.viewcolor{
+    background-color: #ffcc00!important;
+    border: none;
+    color: white!important;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+
+

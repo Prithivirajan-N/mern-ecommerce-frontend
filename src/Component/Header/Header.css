@@ -1,0 +1,18 @@
+.cartcolor{
+    color: white!important;
+}
+.navbar-brand:hover, .nav-link:hover, .nav-item:hover, .nav-dropdown-toggle:hover {
+    color: #ffcc00; /* Change this to the color you prefer */
+}
+.navbar-brand, .nav-link, .nav-item, .nav-dropdown-toggle {
+    color: white;
+    transition: color 0.3s ease;
+}
+.cartcolor:hover{
+    color: #ffcc00!important;
+}
+.buttoncolor{
+    background-color: black!important;
+    padding-left: 25px;
+    padding-right: 25px;
+}

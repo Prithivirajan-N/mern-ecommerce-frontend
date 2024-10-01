@@ -1,0 +1,64 @@
+/* Container animation */
+.register-container {
+    animation: fadeIn 1s ease-in-out;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields animation */
+.register-input {
+    animation: slideUp 0.8s ease-out;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.register-input:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+/* Button animation */
+.register-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
